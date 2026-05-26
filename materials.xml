@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<materials>
+  <material id="1" name="uo2" depletable="true" temperature="900.0">
+    <density value="10.422" units="g/cm3"/>
+    <nuclide name="U234" ao="0.0004478101495663475"/>
+    <nuclide name="U235" ao="0.050101040134813"/>
+    <nuclide name="U238" ao="0.9492216628874719"/>
+    <nuclide name="U236" ao="0.00022948682814877676"/>
+    <nuclide name="O16" ao="1.9952412"/>
+    <nuclide name="O17" ao="0.000758"/>
+    <nuclide name="O18" ao="0.0040008"/>
+  </material>
+  <material id="2" name="un_thn" depletable="true" temperature="1200.0">
+    <density value="10.792" units="g/cm3"/>
+    <nuclide name="U234" ao="0.00035824811965307806"/>
+    <nuclide name="U235" ao="0.040080832107850406"/>
+    <nuclide name="U238" ao="0.7593773303099776"/>
+    <nuclide name="U236" ao="0.0001835894625190214"/>
+    <nuclide name="Th232" ao="0.2"/>
+    <nuclide name="N15" ao="1.0"/>
+  </material>
+  <material id="3" name="zircaloy" temperature="600.0">
+    <density value="6.55" units="g/cm3"/>
+    <nuclide name="Zr90" wo="0.4975030719418411"/>
+    <nuclide name="Zr91" wo="0.10970127724609834"/>
+    <nuclide name="Zr92" wo="0.1695240925103877"/>
+    <nuclide name="Zr94" wo="0.1755385702549024"/>
+    <nuclide name="Zr96" wo="0.02888298804677048"/>
+    <nuclide name="Sn112" wo="0.00013258696500899892"/>
+    <nuclide name="Sn114" wo="9.18244938630758e-05"/>
+    <nuclide name="Sn115" wo="4.771905899254868e-05"/>
+    <nuclide name="Sn116" wo="0.0020584231441515095"/>
+    <nuclide name="Sn117" wo="0.0010966473380910862"/>
+    <nuclide name="Sn118" wo="0.003487981278597598"/>
+    <nuclide name="Sn119" wo="0.0012475771051862219"/>
+    <nuclide name="Sn120" wo="0.004771539508846636"/>
+    <nuclide name="Sn122" wo="0.000689409486231945"/>
+    <nuclide name="Sn124" wo="0.0008762916210303822"/>
+    <nuclide name="Fe54" wo="0.00011855672267684395"/>
+    <nuclide name="Fe56" wo="0.0019299321043708116"/>
+    <nuclide name="Fe57" wo="4.5367740887167366e-05"/>
+    <nuclide name="Fe58" wo="6.143432065177235e-06"/>
+    <nuclide name="Cr50" wo="4.173686622718313e-05"/>
+    <nuclide name="Cr52" wo="0.000836993623513459"/>
+    <nuclide name="Cr53" wo="9.673586818675183e-05"/>
+    <nuclide name="Cr54" wo="2.4533642072606143e-05"/>
+    <nuclide name="Hf174" wo="1.5592576781201617e-07"/>
+    <nuclide name="Hf176" wo="5.185040271645928e-06"/>
+    <nuclide name="Hf177" wo="1.8439333432437897e-05"/>
+    <nuclide name="Hf178" wo="2.7197270771608864e-05"/>
+    <nuclide name="Hf179" wo="1.3655166554538101e-05"/>
+    <nuclide name="Hf180" wo="3.536726320195719e-05"/>
+  </material>
+  <material id="4" name="helium" temperature="600.0">
+    <density value="0.00015" units="g/cm3"/>
+    <nuclide name="He3" ao="2e-06"/>
+    <nuclide name="He4" ao="0.999998"/>
+  </material>
+  <material id="5" name="h2o" temperature="600.0">
+    <density value="0.6628" units="g/cm3"/>
+    <nuclide name="H1" ao="2.0"/>
+    <nuclide name="O16" ao="0.9976206"/>
+    <nuclide name="O17" ao="0.000379"/>
+    <nuclide name="O18" ao="0.0020004"/>
+    <sab name="c_H_in_H2O"/>
+  </material>
+</materials>

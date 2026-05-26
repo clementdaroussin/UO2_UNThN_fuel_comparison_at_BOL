@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<geometry>
+  <cell id="1" name="fuel" material="2" region="-1 4 -5" temperature="1200.0" universe="1"/>
+  <cell id="2" name="helium gap" material="4" region="1 -2 4 -5" universe="1"/>
+  <cell id="3" name="clad" material="3" region="2 -3 4 -5" universe="1"/>
+  <cell id="4" name="moderator" material="5" region="8 -9 10 -11 3 4 -5" universe="1"/>
+  <cell id="5" name="axial reflectors" material="5" region="8 -9 10 -11 ((6 -4) | (5 -7))" universe="1"/>
+  <surface id="1" type="z-cylinder" coeffs="0.0 0.0 0.4096"/>
+  <surface id="2" type="z-cylinder" coeffs="0.0 0.0 0.418"/>
+  <surface id="3" type="z-cylinder" coeffs="0.0 0.0 0.475"/>
+  <surface id="4" type="z-plane" coeffs="-210.0"/>
+  <surface id="5" type="z-plane" coeffs="210.0"/>
+  <surface id="6" type="z-plane" boundary="vacuum" coeffs="-230.0"/>
+  <surface id="7" type="z-plane" boundary="vacuum" coeffs="230.0"/>
+  <surface id="8" type="x-plane" boundary="reflective" coeffs="-0.63"/>
+  <surface id="9" type="x-plane" boundary="reflective" coeffs="0.63"/>
+  <surface id="10" type="y-plane" boundary="reflective" coeffs="-0.63"/>
+  <surface id="11" type="y-plane" boundary="reflective" coeffs="0.63"/>
+</geometry>

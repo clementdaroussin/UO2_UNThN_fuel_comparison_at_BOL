@@ -1,0 +1,7 @@
+git init
+cat <<EOF > .gitignore
+*.h5
+tallies.out
+.ipynb_checkpoints/
+__pycache__/
+EOF
